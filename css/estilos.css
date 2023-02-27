@@ -1,0 +1,213 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Kanit';
+}
+
+.galeria {
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,0,0,1) 35%, rgba(106,34,34,1) 100%);
+}
+.container {
+	margin: auto;
+	width: 90%;
+	
+	
+	
+
+}
+.fotos .container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: auto;
+	background: grey;
+}
+
+.fotos .container .thumb {
+	box-shadow: 1px 2px;
+	border-bottom: 5px solid red;
+	border-radius: 0px 50px 10px 10px;
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+}
+
+
+.fotos .container .thumb img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 50px 10px 10px;
+	opacity: 0.7;
+}
+
+.fotos .container .thumb img:hover{
+	opacity: 1;
+	transition: all 1.5s ease;
+	
+}
+h1 {
+	font-weight: 200;
+	text-align: center;
+	color: whitesmoke;
+}
+
+
+.botones {
+	width: 100%;
+	height: 70px;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,0,0,1) 35%, rgba(106,34,34,1) 100%);
+}
+
+.botones a {
+	text-decoration: none;
+	color: whitesmoke;
+	margin: 15px;
+	border: 1px solid whitesmoke;
+	padding:5px;
+	border-radius: 10px;
+	line-height: 18px;
+	max-height: 50px;
+
+	display: inline-flex;
+}
+.botones a i {
+	font-size: 30px;
+	
+	
+	
+}
+
+.botones p {
+	font-size: 15px;
+	line-height: 30px;
+}
+.izquierda {
+	float: left;
+}
+
+.izquierda i {
+	margin-right: 15px;
+}
+.derecha {
+	float: right;
+}
+.derecha i {
+	margin-left: 15px;
+}
+.galeria .ingresar {
+text-align: center;
+}
+.logoingreso i {
+	color: whitesmoke;
+	font-size: 50px;
+	margin: 15px;
+	
+}
+.logoingreso a{
+	text-decoration: none;
+}
+
+
+
+.ingresar {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ingresar .logoingreso {
+	margin: 15px;
+	border: 1.5px solid whitesmoke;
+
+
+}
+.ingresar .logoingreso:hover{
+	background: black;
+	transition: all 1s ease;
+
+
+
+}
+
+.ingresar .logoingreso p {
+	color: whitesmoke;
+}
+
+.container .imagensola {
+	box-shadow: 1px 2px;
+	border-bottom: 5px solid red;
+	border-radius: 0px 50px 10px 10px;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-top: 50px;
+
+
+}
+
+.imagensola img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 50px 10px 10px;
+	
+}
+
+.textosolo {
+	width: 100%;
+	margin-top: 	30px;
+}
+
+.tittle {
+	margin: 	auto	;
+}
+.tittle h1{
+	color: 	red;
+}
+
+.contenedorformulario {
+	display: 	flex;
+	align-items: center	;
+	justify-content: center;
+	height: 	80vh;
+
+}
+
+.formulario {
+	padding: 20px;
+	width: 50%;
+	background: rgba(168, 0, 0, 0.5);
+	border: 2px solid red;
+}
+
+.formulario input[type="text"],
+.formulario input[type="file"] {
+	display: 	block;
+	width: 100%;
+	outline: 	none;
+	
+}
+.formulario label {
+	color: 	white;
+	font-weight: 	400;
+	margin-top: 10px;
+}
+.formulario textarea {
+	display: 	block;
+	width: 100%;
+	margin-top:  10px;
+}
+
+.destroy {
+	width: 100%;
+	text-align: center;
+}
+.destroy .cerrar {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 10px;
+	
+	
+}
